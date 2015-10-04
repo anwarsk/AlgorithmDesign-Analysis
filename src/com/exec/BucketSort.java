@@ -47,7 +47,7 @@ public class BucketSort {
 			{
 				prev.next = currentNode;
 			}
-			else
+			else // If previous is null then its the first element to add.
 			{
 				root = currentNode;
 			}
